@@ -1,5 +1,26 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
 
 export default function App() {
-  return <div className="bg-red-500">App</div>;
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
