@@ -21,6 +21,5 @@ export default function App() {
       element: <About />,
     },
   ]);
-
   return <RouterProvider router={router} />;
 }
