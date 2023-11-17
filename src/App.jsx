@@ -14,6 +14,8 @@ import Register from "./pages/register/Register";
 import Login from "./pages/Login/Login";
 import Appointment from "./pages/appointment/Appointment";
 import VideoCall from "./pages/video_call/VideoCall";
+import Profile from "./pages/profile/Profile";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -40,6 +42,14 @@ export default function App() {
         {
           path: "/appointment",
           element: <Appointment />,
+        },
+        {
+          path: "/profile",
+          element: <Profile />,
+        },
+        {
+          path: "/dashboard",
+          element: <Dashboard />,
         },
       ],
     },
