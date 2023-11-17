@@ -9,13 +9,11 @@ import Team from "../team/Team";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Statistics />
       <About />
       <Steps />
       <Team />
-      <Footer />
     </div>
   );
 }
