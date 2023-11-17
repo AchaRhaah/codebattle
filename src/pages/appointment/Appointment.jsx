@@ -19,6 +19,9 @@ export default function Appointment() {
             <div className="mb-5">
               <Input label="Email" />
             </div>
+            <div className="mb-5">
+              <Input label="breif description of your problem" />
+            </div>
             <div className="-mx-3 flex flex-wrap">
               <div className="w-full px-3 sm:w-1/2">
                 <div className="mb-5">
