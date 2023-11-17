@@ -1,13 +1,12 @@
 import React from "react";
 import Input from "../../components/input/Input";
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
 Link;
 export default function Register() {
   return (
     <div className="w-full h-full flex  flex-col mb-4 justify-center items-center">
-      <h2 className="font-bold text-4xl py-8">
-        Health<span className="text-[#3B5FE8]">Pal</span>
-      </h2>
+      <img className="w-[12rem] my-8 object-contain" src={logo} alt="" />
       <form
         action=""
         className="w-[95%] md:w-[50%] p-7 md:p-12 border rounded-lg flex items-center flex-col gap-7"
