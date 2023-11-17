@@ -13,6 +13,7 @@ import RootLayout from "./layouts/RootLayout";
 import Register from "./pages/register/Register";
 import Login from "./pages/Login/Login";
 import Appointment from "./pages/appointment/Appointment";
+import VideoCall from "./pages/video_call/VideoCall";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -24,19 +25,23 @@ export default function App() {
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/video-call",
+          element: <VideoCall />,
+        },
+        {
+          path: "/register",
+          element: <Register />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/appointment",
+          element: <Appointment />,
+        },
       ],
-    },
-    {
-      path: "/register",
-      element: <Register />,
-    },
-    {
-      path: "/login",
-      element: <Login />,
-    },
-    {
-      path: "/appointment",
-      element: <Appointment />,
     },
   ]);
   return <RouterProvider router={router} />;
