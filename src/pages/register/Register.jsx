@@ -26,6 +26,9 @@ export default function Register() {
             <Input label="phone number" />
           </div>
         </div>
+        <div className="w-[46%] ">
+          <Input label="Emergency Contact" />
+        </div>
         <div className="w-full ">
           <Input label="Address" />
         </div>

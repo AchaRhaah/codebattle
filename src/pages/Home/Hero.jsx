@@ -17,7 +17,7 @@ function Hero() {
                 1000,
                 "We provide health care",
                 1000,
-                "We preserve the village",
+                "We preserve the Bomakanda",
                 1000,
               ]}
               wrapper="span"

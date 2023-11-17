@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Input from "../../components/input/Input";
+import DropDown from "../../components/input/DropDown";
 
 export default function Appointment() {
   return (
@@ -80,6 +81,8 @@ export default function Appointment() {
               </div>
             </div>
 
+            <DropDown />
+            
             <div>
               <button className="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
                 Book Appointment
