@@ -10,7 +10,6 @@ import {
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import RootLayout from "./layouts/RootLayout";
-import Appoitment from "./pages/appointment/Appointment";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -25,8 +24,12 @@ export default function App() {
       ],
     },
     {
-      path: "/about",
-      element: <About />,
+      path: "/register",
+      element: <Register />,
+    },
+    {
+      path: "/login",
+      element: <Login />,
     },
     {
       path: "/appointment",
