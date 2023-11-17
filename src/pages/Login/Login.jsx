@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "../../components/input/Input";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
 Link;
 export default function Login() {
   return (
