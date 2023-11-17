@@ -10,6 +10,9 @@ import {
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import RootLayout from "./layouts/RootLayout";
+import Register from "./pages/register/Register";
+import Login from "./pages/Login/Login";
+import Appointment from "./pages/appointment/Appointment";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -33,7 +36,7 @@ export default function App() {
     },
     {
       path: "/appointment",
-      element: <Appoitment />,
+      element: <Appointment />,
     },
   ]);
   return <RouterProvider router={router} />;
