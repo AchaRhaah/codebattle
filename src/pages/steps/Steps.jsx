@@ -33,10 +33,11 @@ function Steps() {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Signup to our platform
+                    Eat a balanced diet
                   </h2>
                   <p className="leading-relaxed">
-                    We want to know you so we can Lorem ipsum dolor sit amet.
+                    We as africans Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Rerum, itaque?.
                   </p>
                 </div>
               </div>
@@ -64,10 +65,12 @@ function Steps() {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Schedule an appointment
+                    Wash hands with clean water
                   </h2>
                   <p className="leading-relaxed">
-                    Recieve consultaiton from Lorem ipsum dolor sit amet.
+                    Washing your hands Lorem ipsum dolor sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur..
                   </p>
                 </div>
               </div>
@@ -96,9 +99,9 @@ function Steps() {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Get health tips
+                    Sleep 8hrs daily
                   </h2>
-                  <p className="leading-relaxed">Get tips from</p>
+                  <p className="leading-relaxed">Good sleep is Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus repudiandae tempora?</p>
                 </div>
               </div>
             </div>
