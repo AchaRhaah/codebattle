@@ -10,6 +10,7 @@ import {
 import { BsBarChartLine } from "react-icons/bs";
 import { GoStack } from "react-icons/go";
 import { MdLogout } from "react-icons/md";
+import DashboardTab from "./components/DashboardTab";
 
 export default function Dashboard() {
   const [page, setPage] = useState("");
@@ -195,8 +196,8 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* {page === "dashboard" && <Dashboard />}
-        {page === "newclass" && <Calendar />}
+        {page === "dashboard" && <DashboardTab />}
+        {/* {page === "newclass" && <Calendar />}
         {page === "classroom" && <StudentClassroom />}
         {page === "earnings" && <Earnings />}
         {page === "messages" && <Messages />}
